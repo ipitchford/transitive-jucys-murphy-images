@@ -1,0 +1,49 @@
+# SPDX-License-Identifier: MIT
+name: Replay
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    name: Manifest; exact verifier under python -O; JSON compared (python field excluded); negative control (blocking)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check MANIFEST.sha256
+        run: sha256sum -c MANIFEST.sha256
+      - name: Run the verifier in a copy of the package (cwd = package root)
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python3 -c 'import sys; print(sys.version)'
+          for d in run neg; do mkdir -p "$RUNNER_TEMP/$d"; cp -R code results "$RUNNER_TEMP/$d/"; done
+          cd "$RUNNER_TEMP/run"
+          python3 -O -I -B code/verify_transitive.py --output new-verification.json | tee verify-output.txt
+          grep -qx 'ALL CHECKS PASSED' verify-output.txt
+      - name: Compare with the recorded output (exact; only the top-level "python" field is excluded)
+        run: |
+          python3 -I - results/verification.json "$RUNNER_TEMP/run/new-verification.json" <<'PY'
+          import json, sys
+          a, b = (json.load(open(p)) for p in sys.argv[1:3])
+          pa, pb = a.pop('python', None), b.pop('python', None)
+          print('recorded python', pa, '/ this run', pb)
+          if a != b:
+              print('DIFFERS'); sys.exit(1)
+          print('verification.json equal under the declared policy')
+          PY
+      - name: Negative control under -O (stated index at n = 6 changed from 2 to 1)
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          cd "$RUNNER_TEMP/neg"
+          test "$(grep -c '6: 2, 7: 1}' code/verify_transitive.py)" = 1
+          sed -i 's/6: 2, 7: 1}/6: 1, 7: 1}/' code/verify_transitive.py
+          if python3 -O -I -B code/verify_transitive.py --output neg.json > neg-output.txt 2>&1; then echo "negative control not detected"; exit 1; fi
+          grep -q 'FAIL: index of image in L_n differs from Theorem 6.3 at n=6' neg-output.txt
+          echo "negative control detected"
+      - name: Working tree unchanged
+        run: test -z "$(git status --porcelain)"

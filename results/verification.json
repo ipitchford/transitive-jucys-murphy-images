@@ -1,0 +1,230 @@
+{
+ "checks": {
+  "A_marker_construction_word_level": {
+   "nonzero_permutation_marker_pairs": {
+    "1": 1,
+    "2": 3,
+    "3": 11,
+    "4": 57
+   }
+  },
+  "B_mobius_lemma_word_level": {
+   "length_max": 4,
+   "monomials_checked": 158,
+   "n_max": 4
+  },
+  "C_degree_selectors": {
+   "n_max": 9,
+   "selector_shape_pairs": 1818
+  },
+  "D_class_engine_vs_words": {
+   "T_n(e_mu) vectors compared": 36,
+   "n_max": 4
+  },
+  "E_n3_matrix": {
+   "rows_K111_K21_K3": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     -3,
+     -1,
+     0
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ]
+  },
+  "F_optimal_degree": {
+   "2": {
+    "classes": 2,
+    "identity_coefficient_zero_below_2n-2": true,
+    "rank_degree_le_2n-2": 2
+   },
+   "3": {
+    "classes": 3,
+    "identity_coefficient_zero_below_2n-2": true,
+    "rank_degree_le_2n-2": 3
+   },
+   "4": {
+    "classes": 5,
+    "identity_coefficient_zero_below_2n-2": true,
+    "rank_degree_le_2n-2": 5
+   },
+   "5": {
+    "classes": 7,
+    "identity_coefficient_zero_below_2n-2": true,
+    "rank_degree_le_2n-2": 7
+   },
+   "6": {
+    "classes": 11,
+    "identity_coefficient_zero_below_2n-2": true,
+    "rank_degree_le_2n-2": 11
+   },
+   "7": {
+    "classes": 15,
+    "identity_coefficient_zero_below_2n-2": true,
+    "rank_degree_le_2n-2": 15
+   }
+  },
+  "G_pair_rank": {
+   "2": {
+    "2p(n)-1": 3,
+    "pair_rank": 3
+   },
+   "3": {
+    "2p(n)-1": 5,
+    "pair_rank": 5
+   },
+   "4": {
+    "2p(n)-1": 9,
+    "pair_rank": 9
+   },
+   "5": {
+    "2p(n)-1": 13,
+    "pair_rank": 13
+   },
+   "6": {
+    "2p(n)-1": 21,
+    "pair_rank": 21
+   }
+  },
+  "H_integral_image": {
+   "1": {
+    "classes": 1,
+    "closure_rounds": 1,
+    "content_multisets": 1,
+    "index_in_integral_centre": 1,
+    "index_of_classwise_lattice": 1,
+    "index_of_image_in_classwise_lattice": 1,
+    "index_of_unital_subalgebra": 1,
+    "quotient_diagonal_in_lattice_coordinates": [
+     1
+    ],
+    "unital_Z_subalgebra_equals_Z1_plus_image": true
+   },
+   "2": {
+    "classes": 2,
+    "closure_rounds": 3,
+    "content_multisets": 3,
+    "index_in_integral_centre": 1,
+    "index_of_classwise_lattice": 1,
+    "index_of_image_in_classwise_lattice": 1,
+    "index_of_unital_subalgebra": 1,
+    "quotient_diagonal_in_lattice_coordinates": [
+     1,
+     1
+    ],
+    "unital_Z_subalgebra_equals_Z1_plus_image": true
+   },
+   "3": {
+    "classes": 3,
+    "closure_rounds": 3,
+    "content_multisets": 6,
+    "index_in_integral_centre": 4,
+    "index_of_classwise_lattice": 4,
+    "index_of_image_in_classwise_lattice": 1,
+    "index_of_unital_subalgebra": 2,
+    "quotient_diagonal_in_lattice_coordinates": [
+     1,
+     1,
+     1
+    ],
+    "unital_Z_subalgebra_equals_Z1_plus_image": true
+   },
+   "4": {
+    "classes": 5,
+    "closure_rounds": 4,
+    "content_multisets": 12,
+    "index_in_integral_centre": 72,
+    "index_of_classwise_lattice": 72,
+    "index_of_image_in_classwise_lattice": 1,
+    "index_of_unital_subalgebra": 12,
+    "quotient_diagonal_in_lattice_coordinates": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "unital_Z_subalgebra_equals_Z1_plus_image": true
+   },
+   "5": {
+    "classes": 7,
+    "closure_rounds": 6,
+    "content_multisets": 21,
+    "index_in_integral_centre": 331776,
+    "index_of_classwise_lattice": 331776,
+    "index_of_image_in_classwise_lattice": 1,
+    "index_of_unital_subalgebra": 13824,
+    "quotient_diagonal_in_lattice_coordinates": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "unital_Z_subalgebra_equals_Z1_plus_image": true
+   },
+   "6": {
+    "classes": 11,
+    "closure_rounds": 7,
+    "content_multisets": 38,
+    "extra_congruence": "c_(4,1,1)/4 + c_(2,2,2)/8 + c_(2,1,1,1,1)/24 is even for every element of T_6(Lambda_Z)",
+    "index_in_integral_centre": 3185049600,
+    "index_of_classwise_lattice": 1592524800,
+    "index_of_image_in_classwise_lattice": 2,
+    "index_of_unital_subalgebra": 26542080,
+    "quotient_diagonal_in_lattice_coordinates": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     1
+    ],
+    "unital_Z_subalgebra_equals_Z1_plus_image": true
+   },
+   "7": {
+    "classes": 15,
+    "closure_rounds": 8,
+    "content_multisets": 63,
+    "index_in_integral_centre": 205426954327818240000,
+    "index_of_classwise_lattice": 205426954327818240000,
+    "index_of_image_in_classwise_lattice": 1,
+    "index_of_unital_subalgebra": 285315214344192000,
+    "quotient_diagonal_in_lattice_coordinates": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "unital_Z_subalgebra_equals_Z1_plus_image": true
+   }
+  }
+ },
+ "python": "3.14.7"
+}

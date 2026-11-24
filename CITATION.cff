@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using these metadata."
+type: software
+title: "Which central elements are transitive? An answer to a question of Campion Loth and Rattan on Jucys-Murphy evaluations"
+abstract: "Unrefereed research candidate. Symmetric polynomials in the Jucys-Murphy elements give the centre of the symmetric group algebra. Keeping only transitive products of transpositions defines the transitive image T_n(f), which Campion Loth and Rattan showed is central; they asked which subalgebra these images generate (Question 12). Over the complex numbers every central element is a single transitive image. Over a commutative ring R, transitive images span the centre, and generate it as a unital algebra, exactly when (n-1)! is a unit in R; when they span it, degree 2n-2 suffices and cannot be lowered. The pairs (ordinary evaluation, transitive image) are exactly the pairs of central elements with equal n-cycle coefficients. Over the integers a conjugation-orbit bound is attained classwise for n <= 5 and n = 7 but not for n = 6 (index 2), by exact computation."
+authors:
+  - name: "Anonymous"
+version: "0.1.0-candidate"
+date-released: "2026-11-24"
+doi: "10.5281/zenodo.24516957"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24516957"
+    description: "This version"
+  - type: doi
+    value: "10.5281/zenodo.24516956"
+    description: "All versions (concept DOI)"
+repository-code: "https://github.com/ipitchford/transitive-jucys-murphy-images"
+url: "https://evidencepress.org/releases/transitive-jucys-murphy-images/"
+license: CC0-1.0
+keywords:
+  - Jucys-Murphy elements
+  - symmetric group
+  - centre of the group algebra
+  - transitive factorisations
+  - Hurwitz numbers
+  - symmetric functions
+preferred-citation:
+  type: article
+  title: "Which central elements are transitive? An answer to a question of Campion Loth and Rattan on Jucys-Murphy evaluations"
+  authors:
+    - name: "Anonymous"
+  year: 2026
+  doi: "10.5281/zenodo.24516957"
+  publisher:
+    name: "Zenodo"
+  notes: "Version 0.1.0-candidate; unrefereed"

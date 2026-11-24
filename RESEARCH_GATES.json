@@ -1,0 +1,235 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 24 November 2026 for 0.1.0-candidate from the dated searches of the internal AI-assisted review (24 November 2026), the source retrieval and reading record, the corpus overlap check, refs.bib, REVIEW_SUMMARY.md and the paper's own positioning (Section 1). It records scrutiny performed, not historical priority.",
+ "contributionMap": [
+  {
+   "claim": "T_n is onto the centre of R S_n iff (n-1)! is a unit in R; identity coefficients of transitive images form (n-1)!R; over C every central element is a single transitive image (answers CLR Question 12)",
+   "unit": "statement",
+   "paperLocation": "Theorem 3.2; Section 3",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "arXiv API and Semantic Scholar, by the lead and the domain reviewer",
+     "query": "titles, authors and keywords: transitive Jucys-Murphy; transitive images of symmetric functions; Campion Loth Rattan Question 12; centrality of star and monotone factorisations; Semantic Scholar citations of Campion Loth-Rattan (one citing paper, unrelated)"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "general web search, by the domain reviewer; Evidence Press release corpus (site papers/ and the batch corpus list)",
+     "query": "answer to Question 12 of Campion Loth and Rattan; transitive factorisations centre symmetric group group algebra; Moebius inversion connected Hurwitz numbers Jucys-Murphy; no Evidence Press release on Jucys-Murphy elements, transitive factorisations or symmetric-group centres"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read (Campion Loth-Rattan arXiv v2, Goulden-Jackson, Feray, Murray; Jucys 1974 and Murphy 1983 read in full from owner-supplied copies)",
+     "query": "CLR Theorems 1, 2, 6, Questions 12 and 13, Section 1.3; GJ Section 1.1 inclusion-exclusion; Feray partial Jucys-Murphy elements; Murray Introduction; Murphy Theorem 1.9; Jucys Sections 2-3 and equation (8)"
+    }
+   ],
+   "closestPriorWork": "Campion Loth-Rattan 2025 (centrality of T_n(f), Theorem 6; Question 12 posed); Goulden-Jackson 2009 (transitive powers central)",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "no earlier or later answer to Question 12 was found; centrality itself is credited to Campion Loth-Rattan and Goulden-Jackson"
+  },
+  {
+   "claim": "Optimal degree 2n-2: every central element is T_n(f) with deg f <= 2n-2 when (n-1)! is a unit, and identity coefficients vanish below degree 2n-2",
+   "unit": "statement",
+   "paperLocation": "Theorem 4.1",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "arXiv API and Semantic Scholar, by the lead and the domain reviewer",
+     "query": "titles, authors and keywords: transitive Jucys-Murphy; transitive images of symmetric functions; Campion Loth Rattan Question 12; centrality of star and monotone factorisations; Semantic Scholar citations of Campion Loth-Rattan (one citing paper, unrelated)"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read (Campion Loth-Rattan arXiv v2, Goulden-Jackson, Feray, Murray; Jucys 1974 and Murphy 1983 read in full from owner-supplied copies)",
+     "query": "CLR Theorems 1, 2, 6, Questions 12 and 13, Section 1.3; GJ Section 1.1 inclusion-exclusion; Feray partial Jucys-Murphy elements; Murray Introduction; Murphy Theorem 1.9; Jucys Sections 2-3 and equation (8)"
+    }
+   ],
+   "closestPriorWork": "the join/cut count for transitive factorisations of the identity is standard in Hurwitz theory",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "the lower-bound argument is standard and stated as such; the matching construction (type selectors) was not found in the searched literature"
+  },
+  {
+   "claim": "Image of the pair map (E_n, T_n) and unital generation criterion; classwise divisibility by z_lambda/h_lambda",
+   "unit": "statement",
+   "paperLocation": "Theorem 5.1; Proposition 6.1; Theorem 6.2",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "arXiv API and Semantic Scholar, by the lead and the domain reviewer",
+     "query": "titles, authors and keywords: transitive Jucys-Murphy; transitive images of symmetric functions; Campion Loth Rattan Question 12; centrality of star and monotone factorisations; Semantic Scholar citations of Campion Loth-Rattan (one citing paper, unrelated)"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read (Campion Loth-Rattan arXiv v2, Goulden-Jackson, Feray, Murray; Jucys 1974 and Murphy 1983 read in full from owner-supplied copies)",
+     "query": "CLR Theorems 1, 2, 6, Questions 12 and 13, Section 1.3; GJ Section 1.1 inclusion-exclusion; Feray partial Jucys-Murphy elements; Murray Introduction; Murphy Theorem 1.9; Jucys Sections 2-3 and equation (8)"
+    }
+   ],
+   "closestPriorWork": "Campion Loth-Rattan 2025 (Question 12 asked over C only)",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "not found in the searched literature"
+  },
+  {
+   "claim": "Integral image for n <= 7: equals the classwise lattice for n <= 5 and n = 7, index 2 at n = 6 with an explicit congruence; Z.1 + image closed under multiplication",
+   "unit": "statement",
+   "paperLocation": "Theorem 6.3 (computer-assisted)",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "arXiv API and Semantic Scholar, by the lead and the domain reviewer",
+     "query": "titles, authors and keywords: transitive Jucys-Murphy; transitive images of symmetric functions; Campion Loth Rattan Question 12; centrality of star and monotone factorisations; Semantic Scholar citations of Campion Loth-Rattan (one citing paper, unrelated)"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read (Campion Loth-Rattan arXiv v2, Goulden-Jackson, Feray, Murray; Jucys 1974 and Murphy 1983 read in full from owner-supplied copies)",
+     "query": "CLR Theorems 1, 2, 6, Questions 12 and 13, Section 1.3; GJ Section 1.1 inclusion-exclusion; Feray partial Jucys-Murphy elements; Murray Introduction; Murphy Theorem 1.9; Jucys Sections 2-3 and equation (8)"
+    }
+   ],
+   "closestPriorWork": "Murphy 1983 and Jucys 1974 (integral Jucys-Murphy theorem for ordinary evaluations)",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "exact computation; general n open (Question 6.4)"
+  },
+  {
+   "claim": "Method: Moebius inversion over set partitions writes T_n(f) as an alternating sum of evaluations on Young-subgroup Jucys-Murphy elements; multiplying by Young-subgroup sums collapses each J_i to its rank in its block, so symmetric functions read off block sizes and a triangular system is inverted",
+   "unit": "method",
+   "paperLocation": "Lemma 2.3; Sections 3-4",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "arXiv API and Semantic Scholar, by the lead and the domain reviewer",
+     "query": "titles, authors and keywords: transitive Jucys-Murphy; transitive images of symmetric functions; Campion Loth Rattan Question 12; centrality of star and monotone factorisations; Semantic Scholar citations of Campion Loth-Rattan (one citing paper, unrelated)"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read (Campion Loth-Rattan arXiv v2, Goulden-Jackson, Feray, Murray; Jucys 1974 and Murphy 1983 read in full from owner-supplied copies)",
+     "query": "CLR Theorems 1, 2, 6, Questions 12 and 13, Section 1.3; GJ Section 1.1 inclusion-exclusion; Feray partial Jucys-Murphy elements; Murray Introduction; Murphy Theorem 1.9; Jucys Sections 2-3 and equation (8)"
+    }
+   ],
+   "closestPriorWork": "Goulden-Jackson Section 1.1 (inclusion-exclusion for star powers); Moebius passage between all and connected counts standard in Hurwitz theory; Feray partial Jucys-Murphy elements",
+   "verdict": "partially-known-cited",
+   "verdictNote": "the inversion device is credited as standard; the marker and type-selector constructions on symmetric functions are the new ingredients"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Campion Loth, J. and Rattan, A. (2025), Centrality of star and monotone factorisations, Bulletin of the London Mathematical Society 57(11), 3567-3585 (arXiv:2403.08354v2)",
+   "usedFor": "Theorems 1, 2, 6; Questions 12 and 13; Section 1.3 (the operator T_n)",
+   "readWhat": "whole paper, arXiv v2",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1112/blms.70170"
+  },
+  {
+   "citation": "Goulden, I. P. and Jackson, D. M. (2009), Transitive powers of Young-Jucys-Murphy elements are central, Journal of Algebra 321(7), 1826-1835 (arXiv:0704.1100)",
+   "usedFor": "centrality of transitive powers; Section 1.1 inclusion-exclusion",
+   "readWhat": "arXiv version (abstract, Section 1.1 and the cited statements)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/j.jalgebra.2009.01.004"
+  },
+  {
+   "citation": "Feray, V. (2012), Partial Jucys-Murphy elements and star factorizations, European Journal of Combinatorics 33(2), 189-198 (arXiv:0904.4854v2)",
+   "usedFor": "conceptual proof of centrality of transitive powers through partial permutations",
+   "readWhat": "whole paper, arXiv v2",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/j.ejc.2011.09.035"
+  },
+  {
+   "citation": "Murray, J. (2004), Generators for the centre of the group algebra of a symmetric group, Journal of Algebra 271(2), 725-748",
+   "usedFor": "secondary reference for the integral Jucys-Murphy theorem (Introduction)",
+   "readWhat": "repository copy; Introduction read from rendered pages",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/j.jalgebra.2003.02.007"
+  },
+  {
+   "citation": "Jucys, A.-A. A. (1974), Symmetric polynomials and the center of the symmetric group ring, Reports on Mathematical Physics 5(1), 107-112",
+   "usedFor": "integral Jucys-Murphy theorem; equation (8) and the Farahat-Higman generators (Sections 2-3)",
+   "readWhat": "whole paper (owner-supplied copy, not redistributed)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/0034-4877(74)90019-6"
+  },
+  {
+   "citation": "Murphy, G. E. (1983), The idempotents of the symmetric group and Nakayama's conjecture, Journal of Algebra 81(1), 258-265",
+   "usedFor": "Theorem 1.9: centre of K S_n = symmetric polynomials in the Jucys-Murphy elements over every integral domain K",
+   "readWhat": "whole paper (owner-supplied copy, not redistributed)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/0021-8693(83)90219-3"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Integral image known only for n <= 7",
+   "closingQuestion": "What is T_n(Lambda_Z) for all n?",
+   "triedOrSearched": "exact degree-free computation for n <= 7; an n = 8 computation was attempted and stopped (nothing claimed)",
+   "estimatedCost": "research-level",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Question 6.4",
+   "whyNotClosedNow": "stated as an open question"
+  },
+  {
+   "limitation": "No conceptual explanation of the n = 6 parity condition",
+   "closingQuestion": "Why does an extra congruence on odd classes appear at n = 6?",
+   "triedOrSearched": "the condition is computed and certified with a witness (24 K_(2,1,1,1,1)); all three classes consist of odd permutations",
+   "estimatedCost": "research-level",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Section 6 remark and Question 6.4",
+   "whyNotClosedNow": "stated as open"
+  },
+  {
+   "limitation": "Closed forms for transitive images of classical bases not addressed",
+   "closingQuestion": "CLR Question 13",
+   "triedOrSearched": "outside the scope of this release; stated in Section 1",
+   "estimatedCost": "research-level",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "CLR Question 13",
+   "whyNotClosedNow": "different question"
+  },
+  {
+   "limitation": "Integral-image check could pass without comparing to the stated values",
+   "closingQuestion": "Does the verifier fail when a stated value is wrong?",
+   "triedOrSearched": "expected-value tables added; negative control (index at n = 6 changed 2 -> 1) exits 1 under python -O",
+   "estimatedCost": "minutes",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Integral Jucys-Murphy theorem cited only to a secondary source in the draft",
+   "closingQuestion": "Do the primary sources state the integral result used?",
+   "triedOrSearched": "Jucys 1974 and Murphy 1983 obtained and read in full; statements matched",
+   "estimatedCost": "hours",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Novelty rests on searches of limited scope",
+   "closingQuestion": "Would indexed databases change attribution?",
+   "triedOrSearched": "arXiv API, Semantic Scholar citations of CLR, web search; cited sources read; Evidence Press corpus checked",
+   "estimatedCost": "subscription indexes",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "MathSciNet and zbMATH were outside the searched corpus",
+   "whyNotClosedNow": "recorded here; the paper claims only an answer to the question as posed"
+  }
+ ],
+ "extensionScout": {
+  "by": "five internal reviewer roles (one combined Claude pass) and the lead",
+  "date": "2026-11-24",
+  "proposals": [
+   "exact integral image (classwise lattice conjecture)",
+   "promote the z/h divisibility to a proposition",
+   "unital algebra over the integers",
+   "integral image at n = 8",
+   "explain why the linear statement is needed (an algebra generator alone fails)"
+  ],
+  "actions": [
+   "done for n <= 7: Theorem 6.3 (conjecture false at n = 6)",
+   "done: Proposition 6.1",
+   "done: Theorem 6.3(iii)",
+   "attempted, not completed; nothing claimed",
+   "not adopted (optional)"
+  ]
+ }
+}

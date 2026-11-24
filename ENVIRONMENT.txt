@@ -1,0 +1,13 @@
+Release replay environment (24 November 2026, macOS arm64 host)
+Interpreter: CPython 3.12.11 (uv-managed: `uv run --no-project --python 3.12 python`; the version was printed inside
+the run with sys.version). Note: on this host `uv run --python 3.12 python3` can resolve to CPython 3.14 through a
+`python3` shim; the release replay therefore invoked `python` inside uv and recorded the actual version. The recorded
+results/verification.json was produced under CPython 3.14.7 and records that in its "python" field.
+Packages: none. code/verify_transitive.py uses the Python standard library only (argparse, json, platform, sys,
+fractions, itertools, math, collections); Python >= 3.10.
+Working directory: the package root (the default output path is results/verification.json).
+GitHub CI: ubuntu-latest, actions/setup-python 3.12; the verifier runs under python -O -I -B.
+Cross-platform comparison (declared before tagging; same policy in CI, README.md and REPLAY_RECEIPT.md):
+- All arithmetic is exact (Python integers and fractions.Fraction; Hermite normal forms over Z). The new JSON must
+  equal results/verification.json exactly, after removing only the top-level "python" field (interpreter version).
+  No floating-point values occur and no tolerance is used.
